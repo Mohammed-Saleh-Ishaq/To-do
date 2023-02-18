@@ -1,0 +1,17 @@
+{% extends 'substructure/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'task'%}">&#8592;Go Back</a>
+</div>
+
+<div class=" card-body">
+    <form method = "POST" action= " ">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input class="button" type="submit" value="submit">
+    </form>
+</div>    
+
+{% endblock content %}
+<!-- <h3> Task form </h3>-->

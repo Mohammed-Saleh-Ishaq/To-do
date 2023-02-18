@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "views",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH":"${workspaceFolder}/../substructure" 
+            }
+        }
+    ]
+}
+
+//  File "c:\Users\hutaz\Desktop\App\substructure\views.py", line 4, in <module>
+//from .models import Task as tk
+//ImportError: attempted relative import with no known parent package
+//because of this error i have to create json 17/10/22
