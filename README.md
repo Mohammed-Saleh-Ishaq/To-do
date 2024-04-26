@@ -8,7 +8,7 @@
 . Django Backend: The backend of the application is powered by Django, providing 
   robust and scalable solutions for handling data and business logic.
 
-. HTML/CSS Frontend: The frontend is designed using HTML and CSS, ensuring a 
+. HTML/CSS Frontend: The frontend is designed using HTML & CSS, ensuring a 
   visually appealing and intuitive user interface.
 
 
